@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bouton Rouge</title>
+  <style>
+    #bonjour-button {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <button id="bonjour-button">Cliquez-moi</button>
+  <script>
+    document.getElementById('bonjour-button').addEventListener('click', function () {
+      alert('Bonjour Valentin');
+    });
+  </script>
+</body>
+</html>
